@@ -1,2 +1,2 @@
 # Exercicios-Python-Mundo2
- Meus exercícios de Python do Mundo 2
+ My World 2 Python exercises!
