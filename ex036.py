@@ -10,7 +10,7 @@ print()
 print('\033[31mATENÇÃO!\033[m %s\nPara pagar uma casa de %.2f, em %i anos\nA prestação será de R$%.2f' % (nome, valorC, a, p))
 print()
 
-if p <= min:
+if p <= m:
     print('Empréstimo \033[32mCONCEDIDO\033[m!')
 else:
     print('Empréstimo \033[31mNEGADO\033[m!')
