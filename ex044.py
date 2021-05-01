@@ -1,7 +1,8 @@
-print('--------------------\033[1;4;35mLOJAS BALBINO\033[m--------------------')
+print('{:^40}'.format(' \033[1;4;35mLOJAS BALBINO\033[m '))
 print()
 
 preco = float(input('Informe o preço do produto: R$'))
+
 print('''Qual será a condição de pagamento?
 [ 1 ] Dinheiro/cheque (\033[4;1mà vista\033[m)
 [ 2 ] Cartão (\033[4;1mà vista\033[m)
@@ -40,6 +41,6 @@ elif escolha == 4:
     p20 = preco * 20 / 100
     pag = int(input('Você deseja pagar o valor de R$\033[1;4;32m{:.2f}\033[m em quantas vezes?: '.format(preco + p20)))
     print('Para quitar o valor de R$\033[1;4;32m{:.2f}\033[m em {} prestações,'.format(preco + p20, pag), end='')
-    print(' você terá que pagar {} parcelas de R$\033[1;4;32m{:.2f}\033[m'.format(pag, (preco + p20) / pag))
+    print(' você terá que pagar {} parcelas de R$\033[1;4;32m{:.2f}\033[m COM JUROS'.format(pag, (preco + p20) / pag))
 else:
     print('\033[1;4;31mERRO, TENTE NOVAMENTE')
