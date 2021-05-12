@@ -8,4 +8,4 @@ while True:
     soma += num
     contador += 1
 
-print(f'Foram digitados {contador} números, e a soma de todos esses {contador} é igual a {soma}')
+print(f'Foram digitados {contador} números, e a soma de todos esses {contador} é igual a {soma}.')
