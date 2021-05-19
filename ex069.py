@@ -29,8 +29,10 @@ while True:
 print('=-' * 20)
 print(' ' * 10, '\033[4;1;37mResultado da análise\033[m')
 print()
+
 print(f'\033[1;4m{contmais18idade}\033[m pessoas tem mais de 18 anos.')
 print(f'\033[1;4m{conthomens}\033[m dos cadastrados são homens.')
 print(f'\033[1;4m{contmulheresmen20}\033[m dos cadastrados', end='')
 print(f' são mulheres e tem mais de 20 anos.')
+
 print('=-' * 20)
