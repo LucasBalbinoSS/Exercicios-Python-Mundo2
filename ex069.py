@@ -1,6 +1,4 @@
-contmais18idade = 0
-conthomens = 0
-contmulheresmen20 = 0
+contmais18idade = conthomens = contmulheresmen20 = 0
 continuar = 'S'
 
 while True:
